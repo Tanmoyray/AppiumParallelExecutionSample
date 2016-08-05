@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1" parallel="tests" thread-count="5">
+
+
+
+
+<test name="HTC4.3">
+<classes>
+
+<class name="com.appium.driveu.bookingflow.DriveUAppTest"/>
+<class name="pages.LoginPage"/>
+
+<parameter name="port" value="4725"></parameter>
+<parameter name="device" value="192.168.2.119"></parameter>
+<parameter name="platform_name" value="Android"></parameter>
+<parameter name="platform_version" value="4.3"></parameter>
+</classes>
+
+
+</test>
+<test name="Lava5.1">
+<classes>
+
+<class name="com.appium.driveu.bookingflow.DriveUAppTest"/>
+<class name="pages.LoginPage"/>
+
+<parameter name="port" value="4723"></parameter>
+<parameter name="device" value="192.168.2.124"></parameter>
+<parameter name="platform_name" value="Android"></parameter>
+<parameter name="platform_version" value="5.1"></parameter>
+</classes>
+</test>
+
+</suite>
+
+
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="67169" started-at="2016-08-05T12:40:51Z" finished-at="2016-08-05T12:41:58Z">
+    <groups>
+    </groups>
+    <test name="HTC4.3" duration-ms="39244" started-at="2016-08-05T12:40:51Z" finished-at="2016-08-05T12:41:31Z">
+      <class name="com.appium.driveu.bookingflow.DriveUAppTest">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@5ce81285]" name="setUp" is-config="true" duration-ms="0" started-at="2016-08-05T18:10:51Z" finished-at="2016-08-05T18:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4725]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.2.119]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Error occured while starting App. Original error: com.instagram.android/com.instagram.android.activity.MainTabActivity or .activity.MainTabActivity or .com.instagram.android.activity.MainTabActivity never started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38.23 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Tanmoys-Mac-mini.local', ip: '169.254.220.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error occured while starting App. Original error: com.instagram.android/com.instagram.android.activity.MainTabActivity or .activity.MainTabActivity or .com.instagram.android.activity.MainTabActivity never started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38.23 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Tanmoys-Mac-mini.local', ip: '169.254.220.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:47)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at com.appium.driveu.bookingflow.DriveUAppTest.setUp(DriveUAppTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="Signup()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@5ce81285]" name="Signup" duration-ms="2" started-at="2016-08-05T18:11:31Z" finished-at="2016-08-05T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@5ce81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-05T18:11:31Z" finished-at="2016-08-05T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@5ce81285]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-05T18:11:31Z" finished-at="2016-08-05T18:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.driveu.bookingflow.DriveUAppTest -->
+    </test> <!-- HTC4.3 -->
+    <test name="Lava5.1" duration-ms="67169" started-at="2016-08-05T12:40:51Z" finished-at="2016-08-05T12:41:58Z">
+      <class name="com.appium.driveu.bookingflow.DriveUAppTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@6f1fba17]" name="setUp" is-config="true" duration-ms="21219" started-at="2016-08-05T18:10:51Z" finished-at="2016-08-05T18:11:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.2.124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Signup()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@6f1fba17]" name="Signup" duration-ms="42404" started-at="2016-08-05T18:11:13Z" finished-at="2016-08-05T18:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@6f1fba17]" name="tearDown" is-config="true" duration-ms="3491" started-at="2016-08-05T18:11:55Z" finished-at="2016-08-05T18:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.driveu.bookingflow.DriveUAppTest@6f1fba17]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-08-05T18:11:58Z" finished-at="2016-08-05T18:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.driveu.bookingflow.DriveUAppTest -->
+    </test> <!-- Lava5.1 -->
+  </suite> <!-- Smoke -->
+</testng-results>

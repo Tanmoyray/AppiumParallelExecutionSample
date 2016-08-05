@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]" parallel="tests">
+  <parameter name="platform_version" value="5.1"/>
+  <parameter name="port" value="4723"/>
+  <parameter name="platform_name" value="Android"/>
+  <parameter name="device" value="192.168.2.124"/>
+  <test name="HTC4.3(failed)" parallel="tests">
+    <parameter name="platform_version" value="4.3"/>
+    <parameter name="port" value="4725"/>
+    <parameter name="platform_name" value="Android"/>
+    <parameter name="device" value="192.168.2.119"/>
+    <classes>
+      <class name="com.appium.driveu.bookingflow.DriveUAppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="Signup"/>
+        </methods>
+      </class> <!-- com.appium.driveu.bookingflow.DriveUAppTest -->
+    </classes>
+  </test> <!-- HTC4.3(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

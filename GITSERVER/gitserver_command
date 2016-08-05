@@ -1,0 +1,1 @@
+java -jar /Users/tanmoyray/Documents/eclipesProjects/GITHUBTEST/GITSERVER/selenium-server-standalone-2.53.1.jar -role hub http://127.0.0.1:4444/grid

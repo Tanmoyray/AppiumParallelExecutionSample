@@ -1,0 +1,1 @@
+appium -a 127.0.0.1 -p 4725 --no-reset --bootstrap-port 4730 -U 192.168.2.119:5558 --nodeconfig /Users/tanmoyray/git/GITHUBTEST/GITSERVER/JSONS/node_config_3.json
